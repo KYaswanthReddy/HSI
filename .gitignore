@@ -1,0 +1,12 @@
+datasets/
+results/
+*.mat
+*.pth
+.DS_Store
+
+echo "datasets/" > .gitignore
+echo "results/" >> .gitignore
+echo "visualizations/" >> .gitignore
+echo "*.mat" >> .gitignore
+echo "*.pth" >> .gitignore
+echo ".DS_Store" >> .gitignore
